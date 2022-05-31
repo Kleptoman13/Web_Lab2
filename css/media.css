@@ -1,0 +1,220 @@
+@media (max-width: 1200px)
+{
+    .page-header .menu .mobile
+    {
+        display: inline-block;
+    }
+
+    .page-header .menu .desktop
+    {
+        display: none;
+    }
+
+}
+
+@media (max-width: 900px)
+{
+    .top_bar
+    {
+        display: none;
+    }
+
+    .intro{
+        height: 300px;
+    }
+
+    .intro_link
+    {
+        font-size: 10px;
+    }
+
+    .intro_title
+    {
+        font-size: 25px;
+    }
+
+    .intro_suptitle
+    {
+        font-size: 14px;
+    }
+
+    .hidden_menu
+    {
+        display: none;
+        background-color: rgb(225, 224, 224);
+    }
+
+    .hidden_menu_contant
+    {
+        display: flex;
+        justify-content: center;
+    }
+
+    .hidden_menu_tabl
+    {
+        display: inline-block;  
+    }
+
+    .hidden_menu_btn a{
+        display: flex;
+        text-align: center;
+        font-size: 14px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        padding: 10px;
+    }
+
+    .mobile:hover .hidden_menu
+    {
+        display: block;
+    }
+
+    .about_item
+    {
+        width: 100%;
+    }
+
+    .about
+    {
+        display: inline-block;
+    }
+
+    .about_texts
+    {
+        margin-bottom: 30px;
+    }
+
+    .choise_about
+    {
+        display: inline-block;
+    }
+
+    .choise_about_item
+    {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .partners_item .iconify
+    {
+        font-size: 50px;
+    }
+
+    .call_items
+    {
+        display: inline-block;
+    }
+
+    .call_input_col
+    {
+        display: flex;
+    }
+
+    .call_texts
+    {
+
+        width: 100%;
+    }
+    
+    .call_suptitle
+    {
+        margin-bottom: 15px;
+    }
+
+    .call_inputs
+    {
+        width: 100%;
+    }
+
+    .call_inputs2
+    {
+        width: 100%;
+    }
+
+    .margin_input
+    {
+        margin-right: 15px;
+    }
+
+    .projects_items
+    {
+        display: inline-block;
+    }
+
+    .projects_item
+    {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .projects_bg
+    {
+        top: 0;
+    }
+
+    .information_num
+    {
+        font-size: 30px;
+    }
+
+    .information_text
+    {
+        font-size: 16px;
+    }
+
+    .news_items
+    {
+        display: inline-block;
+    }
+
+    .news_item
+    {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    
+
+    .news_data::after
+    {
+        margin-left: 10px;
+    }
+
+    .testimonials
+    {
+        height: 950px;
+    }
+
+    .testimonials_items
+    {
+        display: inline-block;
+    }
+
+    .testimonials_item
+    {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .signup_suptitle{
+        padding: 40px 0 10px;
+        font-size: 18px;
+    }
+
+    .bot_items
+    {
+        display: inline-block;
+    }
+
+    .bot_item
+    {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 600px)
+{
+    /* .about_item
+    {   
+        width: 100%;
+    } */
+}
